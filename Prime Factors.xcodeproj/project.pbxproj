@@ -15,6 +15,8 @@
 		6E22A9432465E17600198753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E22A9412465E17600198753 /* LaunchScreen.storyboard */; };
 		6E22A94E2465E17700198753 /* Prime_FactorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22A94D2465E17700198753 /* Prime_FactorsTests.swift */; };
 		6E22A9592465E5AD00198753 /* PrimeFactorsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22A9582465E5AD00198753 /* PrimeFactorsViewControllerTests.swift */; };
+		6E56C9262465F51700C78B6D /* PrimeFactorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56C9252465F51700C78B6D /* PrimeFactorsTests.swift */; };
+		6E56C9282465F59100C78B6D /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56C9272465F59100C78B6D /* PrimeFactors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		6E22A94D2465E17700198753 /* Prime_FactorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_FactorsTests.swift; sourceTree = "<group>"; };
 		6E22A94F2465E17700198753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E22A9582465E5AD00198753 /* PrimeFactorsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsViewControllerTests.swift; sourceTree = "<group>"; };
+		6E56C9252465F51700C78B6D /* PrimeFactorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTests.swift; sourceTree = "<group>"; };
+		6E56C9272465F59100C78B6D /* PrimeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeFactors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				6E22A93F2465E17600198753 /* Assets.xcassets */,
 				6E22A9412465E17600198753 /* LaunchScreen.storyboard */,
 				6E22A9442465E17600198753 /* Info.plist */,
+				6E56C9272465F59100C78B6D /* PrimeFactors.swift */,
 			);
 			path = "Prime Factors";
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				6E22A94D2465E17700198753 /* Prime_FactorsTests.swift */,
 				6E22A94F2465E17700198753 /* Info.plist */,
 				6E22A9582465E5AD00198753 /* PrimeFactorsViewControllerTests.swift */,
+				6E56C9252465F51700C78B6D /* PrimeFactorsTests.swift */,
 			);
 			path = "Prime FactorsTests";
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E56C9282465F59100C78B6D /* PrimeFactors.swift in Sources */,
 				6E22A93B2465E17300198753 /* PrimeFactorsViewController.swift in Sources */,
 				6E22A9372465E17300198753 /* AppDelegate.swift in Sources */,
 				6E22A9392465E17300198753 /* SceneDelegate.swift in Sources */,
@@ -215,6 +222,7 @@
 			files = (
 				6E22A94E2465E17700198753 /* Prime_FactorsTests.swift in Sources */,
 				6E22A9592465E5AD00198753 /* PrimeFactorsViewControllerTests.swift in Sources */,
+				6E56C9262465F51700C78B6D /* PrimeFactorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
