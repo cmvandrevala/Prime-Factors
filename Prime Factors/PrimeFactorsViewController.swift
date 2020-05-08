@@ -1,9 +1,9 @@
 import UIKit
 
 public class PrimeFactorsViewController: UIViewController {
-    @IBOutlet var primeFactorsText: UITextField!
-    @IBOutlet var primeFactorsOutput: UILabel!
+    @IBOutlet public var primeFactorsText: UITextField!
+    @IBOutlet public var primeFactorsOutput: UILabel!
     @IBAction func calculatePrimes() {
-        primeFactorsOutput.text = primeFactorsText.text
+//        primeFactorsOutput.text = primeFactorsText.text
     }
 }
