@@ -36,6 +36,9 @@
                                 <rect key="frame" x="356.5" y="71" width="121" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Calculate!"/>
+                                <connections>
+                                    <action selector="calculatePrimes" destination="BYZ-38-t0r" eventType="touchUpInside" id="BjX-rH-tGT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -52,6 +55,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="primeFactorsOutput" destination="huo-dt-VRe" id="wWg-VT-hPs"/>
+                        <outlet property="primeFactorsText" destination="9Xs-5M-AYP" id="iJH-QI-CBE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
